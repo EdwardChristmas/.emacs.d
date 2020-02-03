@@ -7,3 +7,4 @@
 (global-set-key (kbd "C-c C-b") 'eval-buffer)
 (require 'init-ido)
 (require 'init-ibuffer)
+(require 'init-mail)
