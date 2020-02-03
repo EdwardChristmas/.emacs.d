@@ -8,3 +8,4 @@
 (require 'init-ido)
 (require 'init-ibuffer)
 (require 'init-mail)
+(require 'init-misc)
