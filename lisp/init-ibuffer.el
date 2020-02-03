@@ -1,0 +1,5 @@
+(require 'ibuffer)
+(require 'ibuf-ext)
+(global-set-key (kbd "C-x C-b") 'ibuffer)
+(add-to-list 'ibuffer-never-show-predicates "^\\*")
+(provide 'init-ibuffer)
