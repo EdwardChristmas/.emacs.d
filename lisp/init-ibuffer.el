@@ -1,5 +1,5 @@
-(require 'ibuffer)
-(require 'ibuf-ext)
-(global-set-key (kbd "C-x C-b") 'ibuffer)
-(add-to-list 'ibuffer-never-show-predicates "^\\*")
+(use-package ibuffer
+  :ensure nil
+  :defer t
+  :bind ("C-x C-b" . ibuffer))
 (provide 'init-ibuffer)
