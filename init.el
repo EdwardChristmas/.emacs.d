@@ -9,3 +9,4 @@
 (require 'init-ibuffer)
 (require 'init-mail)
 (require 'init-misc)
+(require 'init-package)
