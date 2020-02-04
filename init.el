@@ -5,6 +5,7 @@
 (require 'init-ibuffer)
 (require 'init-git)
 (require 'init-mail)
+(require 'init-rss)
 (require 'init-misc)
 (require 'init-shell)
 (require 'init-lisp)
