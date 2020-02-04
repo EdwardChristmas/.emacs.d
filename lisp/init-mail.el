@@ -18,6 +18,11 @@
 (use-package gnus
   :ensure nil
   :defer t
+  :init
+  (setq gnus-default-charset 'cn-gb-2312)
+  (setq gnus-group-name-charset-group-alist '((".*" . cn-gb-2312)))
+  (setq gnus-summary-show-article-charset-alist '((1 . cn-gb-2312)
+                                                  (2 . utf-8)))
   :config
   (setq gnus-select-method '(nntp "news.newsfan.net"))
   (setq gnus-secondary-select-methods '((nnimap "mail"
