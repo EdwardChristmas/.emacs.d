@@ -6,4 +6,5 @@
 (require 'init-git)
 (require 'init-mail)
 (require 'init-misc)
+(require 'init-shell)
 (require 'init-lisp)
