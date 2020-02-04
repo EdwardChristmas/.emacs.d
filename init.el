@@ -8,3 +8,5 @@
 (require 'init-misc)
 (require 'init-shell)
 (require 'init-lisp)
+(require 'init-clang)
+(require 'init-golang)

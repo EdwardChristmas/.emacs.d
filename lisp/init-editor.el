@@ -1,4 +1,6 @@
 (setq-default cursor-type 'bar)
+(setq-default tab-width 4)
+(setq-default indent-tabs-mode nil)
 (when (eq 'system-type 'darwin)
   (setenv "LANG" "en_US.UTF-8"))
 (defalias 'yes-or-no-p 'y-or-n-p)
