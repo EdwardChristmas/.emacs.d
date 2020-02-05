@@ -4,4 +4,7 @@ elpa
 eshell
 transient
 # Files
+history
 network-security.data
+places
+recentf

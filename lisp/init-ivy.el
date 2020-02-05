@@ -3,6 +3,8 @@
   :hook (after-init . ivy-mode)
   :config
   (setq ivy-use-virtual-buffers t))
+(use-package ivy-hydra
+  :defer t)
 (use-package swiper
   :defer t
   :bind ("C-s" . swiper))
