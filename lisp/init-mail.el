@@ -27,9 +27,9 @@
   :config
   (setq gnus-select-method '(nntp "news.newsfan.net"))
   (setq gnus-secondary-select-methods '((nnimap "mail"
-						(nnimap-address "imap.qq.com")
-						(nnimap-stream ssl)
-						(nnimap-authenticator login)
-						(nnimap-authinfo-file "~/.authinfo.gpg")
-						(nnimap-port 993)))))
+                                                (nnimap-address "imap.qq.com")
+                                                (nnimap-stream ssl)
+                                                (nnimap-authenticator login)
+                                                (nnimap-authinfo-file "~/.authinfo.gpg")
+                                                (nnimap-port 993)))))
 (provide 'init-mail)

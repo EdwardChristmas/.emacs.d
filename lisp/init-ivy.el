@@ -26,5 +26,5 @@
          ("C-r" . counsel-minibuffer-history)))
 (use-package counsel-tramp
   :bind (:map counsel-mode-map
-              ("C-c c T" . counsel-tramp)))
+         ("C-c c T" . counsel-tramp)))
 (provide 'init-ivy)

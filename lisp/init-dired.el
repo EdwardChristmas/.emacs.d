@@ -8,7 +8,7 @@
 (use-package dired-quick-sort
   :defer t
   :bind (:map dired-mode-map
-              ("S" . hydra-dired-quick-sort/body)))
+         ("S" . hydra-dired-quick-sort/body)))
 (use-package diredfl
   :defer t
   :hook (dired-mode . diredfl-mode))
