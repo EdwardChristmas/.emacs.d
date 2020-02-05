@@ -4,7 +4,15 @@
   :config
   (setq ivy-use-virtual-buffers t))
 (use-package ivy-hydra
-  :defer t)
+  :defer t
+  :commands ivy-hydra-read-action
+  :init (setq ivy-read-action-function #'ivy-hydra-read-action))
+(use-package ivy-xref
+  :defer t
+  :init
+  (when (boundp 'xref-show-definitions-function)
+    (setq xref-show-definitions-function #'ivy-xref-show-defs))
+  (setq xref-show-xrefs-function #'ivy-xref-show-xrefs))
 (use-package swiper
   :defer t
   :bind ("C-s" . swiper))
@@ -16,4 +24,7 @@
          ("C-h v" . counsel-describe-variable)
          :map minibuffer-local-map
          ("C-r" . counsel-minibuffer-history)))
+(use-package counsel-tramp
+  :bind (:map counsel-mode-map
+              ("C-c c T" . counsel-tramp)))
 (provide 'init-ivy)
