@@ -2,4 +2,6 @@
 ;;; For more information see (info "(emacs) Directory Variables")
 
 ((emacs-lisp-mode
+  (no-byte-compile . t)
   (lexical-binding . t)))
+

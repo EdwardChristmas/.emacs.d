@@ -1,7 +1,7 @@
 (require 'package)
-(setq package-archives '(("gnu" . "http://elpa.emacs-china.org/gnu/")
-			 ("melpa" . "http://elpa.emacs-china.org/melpa/")
-			 ("org" . "http://elpa.emacs-china.org/org/")))
+(setq package-archives '(("gnu" . "https://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
+                         ("melpa" . "https://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
+                         ("org" . "https://mirrors.tuna.tsinghua.edu.cn/elpa/org/")))
 (defun c4droid/save-select-packages (&optional value)
   "Set `package-select-packages' to VALUE but don't save `custom-file'."
   (when value
