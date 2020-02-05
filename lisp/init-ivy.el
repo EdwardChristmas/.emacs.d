@@ -25,6 +25,7 @@
          :map minibuffer-local-map
          ("C-r" . counsel-minibuffer-history)))
 (use-package counsel-tramp
+  :defer t
   :bind (:map counsel-mode-map
          ("C-c c T" . counsel-tramp)))
 (provide 'init-ivy)
