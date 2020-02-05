@@ -2,6 +2,7 @@
 (require 'init-package)
 (require 'init-performance)
 (require 'init-editor)
+(require 'init-hydra)
 (require 'init-ivy)
 (require 'init-ibuffer)
 (require 'init-git)
