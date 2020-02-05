@@ -7,13 +7,14 @@
 (use-package sendmail
   :ensure nil
   :defer t
-  :config (setq send-mail-functiom 'smtpmail-send-it))
+  :config (setq send-mail-function 'smtpmail-send-it))
 (use-package smtpmail
   :ensure nil
   :defer t
   :config
   (setq smtpmail-default-smtp-server "smtp.qq.com")
   (setq smtpmail-smtp-server "smtp.qq.com")
+  (setq smtpmail-stream-type 'ssl)
   (setq smtpmail-smtp-service 465))
 (use-package gnus
   :ensure nil
