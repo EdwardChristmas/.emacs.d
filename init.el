@@ -11,6 +11,7 @@
 (require 'init-rss)
 (require 'init-misc)
 (require 'init-shell)
+(require 'init-container)
 (require 'init-lisp)
 (require 'init-clang)
 (require 'init-golang)
