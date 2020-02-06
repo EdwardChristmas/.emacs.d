@@ -12,5 +12,6 @@
 (require 'init-container)
 (require 'init-lisp)
 (require 'init-clang)
+(require 'init-python)
 (require 'init-golang)
 (require 'init-markup)
