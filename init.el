@@ -10,6 +10,8 @@
 (require 'init-misc)
 (require 'init-shell)
 (require 'init-container)
+(require 'init-snippet)
+(require 'init-company)
 (require 'init-lisp)
 (require 'init-clang)
 (require 'init-python)
