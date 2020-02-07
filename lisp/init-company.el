@@ -10,4 +10,7 @@
   :config
   (setq company-minimum-prefix-length 2)
   (setq company-idle-delay 0))
+(use-package company-c-headers
+  :defer t
+  :config (add-to-list 'company-backends 'company-c-headers))
 (provide 'init-company)
